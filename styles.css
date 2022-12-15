@@ -3,38 +3,39 @@
     src: url("fonts/Montserrat-Light.ttf");
     font-weight: 300;
   }
-  @font-face {
+
+@font-face {
     font-family: "Montserrat";
     src: url("fonts/Montserrat-Regular.ttf");
     font-weight: 400;
   }
 
-  @font-face {
+@font-face {
     font-family: "Montserrat";
     src: url("fonts/Montserrat-Medium.ttf");
     font-weight: 500;
   }
 
-  @font-face {
+@font-face {
     font-family: "Montserrat";
     src: url("fonts/Montserrat-Bold.ttf");
     font-weight: 700;
   }
 
-  * {
+* {
     box-sizing: border-box;
     color: #222126;
   }
 
-  html {
+html {
     scroll-behavior: smooth; 
   }
 
-  header {
+header {
     background-color: #ffcc00;
   }
 
-  body {
+body {
     background-color: #fff;
     min-height: 100vh;
     margin: 0; 
@@ -45,7 +46,7 @@
     font-family: 'Montserrat';
   }
 
-  footer {
+footer {
     background-color: #ffcc00;
     height: 100px;
   }
@@ -56,16 +57,16 @@ p {
     font-weight: 400;
     font-size: 15px;
     transform: scale(1, 1.05);
-}
+  }
 
 a {
     text-decoration: none;
     font-weight: 600;
-}
+  }
 
 a:hover {
     font-weight: 400;
-}
+  }
 
 .container {
     max-width: 1400px;
@@ -94,20 +95,20 @@ a:hover {
     justify-content: space-between;
     align-items: center;
     padding-left: 90px;
-}
+  }
 
 h1 {
   font-weight: 500;
   text-transform: uppercase;
   font-size: 35px;
-}
+  }
 
 h2 {
   font-weight: 400;
   text-transform: uppercase;
   font-size: 25px;
   transform: scale(1, 1.05);
-}
+  }
 
 .main-menu {
     display: flex;
@@ -139,7 +140,7 @@ h2 {
 
 .circle {
     border-radius: 300px;
-}
+  }
 
 #name {
     vertical-align: middle;
@@ -147,16 +148,16 @@ h2 {
     margin-top: 40px;
   }
 
-  .name_main_header {
+.name_main_header {
     text-align: center;
     line-height: 30px;
     vertical-align: bottom;
-}
+  }
 
-  .name_header {
+.name_header {
     text-align: center;
     line-height: 30px;
-}
+  }
 
 .contact-list {
     list-style: none;
@@ -164,11 +165,11 @@ h2 {
     padding: 0;
     line-height: 30px;
     transform: scale(1, 1.05);
-}
+  }
 
 .contact-image {
     vertical-align: sub;
-}
+  }
 
 .main-big {
     height: 320px;
@@ -178,7 +179,7 @@ h2 {
     padding-bottom: 20px;
     position:relative;
 
-}
+  }
 
 .main-small {
     height: 200px;
@@ -188,7 +189,7 @@ h2 {
     padding-bottom: 20px;
     position:relative;
 
-}
+  }
 
 .line {
   position:absolute;
@@ -197,7 +198,7 @@ h2 {
   height: 2px;
   width: 95%;
   background: #ffcc00;
-}
+  }
 
 .line-small {
   position:relative;
@@ -207,7 +208,7 @@ h2 {
   width: 30%;
   background: #ffcc00;
   margin-bottom: 20px;
-}
+  }
 
 .line-big {
   position:relative;
@@ -216,7 +217,7 @@ h2 {
   height: 30px;
   width: 100%;
   background: #ffcc00;
-}
+  }
 
 #code_example {
   background-color: #222126;
