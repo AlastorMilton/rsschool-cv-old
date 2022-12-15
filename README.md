@@ -1,1 +1,1 @@
-https://alastormilton.github.io/rsschool-cv/index.html
+https://alastormilton.github.io/rsschool-cv/
