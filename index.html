@@ -3,11 +3,78 @@
 <head>
 </head>
 <body>
-<header>
-</header>
-<main>
-</main>
-<footer>
-</footer>   
-</body>
+    <header>
+          <nav>
+            <ul>
+                <li> <a href="#contacts" class="menu-link">Контакты</a></li>
+                <li> <a href="#main-info" class="menu-link">Основная информация</a></li>
+                <li> <a href="#skills" class="menu-link">Навыки</a></li>
+                <li> <a href="#code" class="menu-link"> Пример кода</a></li>
+                <li> <a href="#education" class="menu-link">Образование</a></li>
+                <li> <a href="#experience" class="menu-link">Опыт работы</a></li>
+                <li> <a href="#tasks" class="menu-link">Выполненные задания</a></li>
+                <li> <a href="#english" class="menu-link">Уровень английского</a></li>
+            </ul>
+          </nav>
+    </header>   
+    <main>
+            <div id="photo">
+                <img class="circle" src="image/photo.jpg" alt="Photo" height="200">         
+            </div>
+            <section id="name">
+                <h1 class="name_main_header">Максим Кузнецов</h1>
+                <h2 class="name_header">Начинающий frontend developer</h2>
+            </section>
+            <section id="contacts">
+                <h2>Контакты</h2>
+                <ul class="contact-list">
+                    <li><img src="/image/phone-call.png" alt="phone" height="20"> +7-911-201-35-45</li>
+                    <li><img src="/image/email.png" alt="mail" height="20"> alastormilton@yandex.ru</li>
+                    <li><img src="/image/telegram.png" alt="telegram" height="20"> @alastormilton</li>
+                    <li><img src="/image/github.png" alt="github" height="20"> @AlastorMilton</li>
+                    <li><img src="/image/discord_black_logo_icon_147145.png" alt="discord" height="20"> Alastor Milton (@AlastorMilton)</li>
+                </ul>
+            </section>
+            <section id="main-info">
+                <h2>Общая информация</h2>
+                <p >Моя цель - за год стать junior-разработчиком. Самая главная сильная сторона - уменние обучаться, понимать логику процессов. Занимался конструированием сайтов на Worpress. Перестало хватать знаний и умений и стало интересно узнать как делать что-то с нуля. </p>
+            </section>
+            <section id="education">
+                <h2> Образование</h2>
+                <p>Закончил высшую школу журналистики и массовых коммуникаций Санкт-Петербургского государственного университета. Специальность - радио журналистика. Там же закончил магистратуру.</p>
+            </section>
+            <section id="code">
+                <h2>Пример кода</h2>
+                    <code> const assert = require("chai").assert; <br>
+                        &nbsp; describe("Multiply", () => { <br>
+                            &nbsp; &nbsp; it("fixed tests", () => { <br>
+                            &nbsp;  &nbsp;&nbsp; assert.strictEqual(multiply(1,1), 1); <br>
+                            &nbsp;  &nbsp; &nbsp; assert.strictEqual(multiply(2,1), 2); <br>
+                            &nbsp;  &nbsp; &nbsp; assert.strictEqual(multiply(2,2), 4); <br>
+                            &nbsp;  &nbsp; &nbsp; assert.strictEqual(multiply(3,5), 15);  <br>  
+                             &nbsp; }); <br>
+                       });</code>
+            </section>
+            <section id="skills">
+                <h2>Навыки</h2>
+                <p>Владею базовыми знаниями HTML и CSS.</p>
+            </section>
+                <section id="experience">
+                   <h2>Опыт работы</h2>
+                   <p>Создал около десятка сайто с ипользование Worfpress. Есть опыт работы с HTML и CSS.</p>
+            </section>
+            <section id="tasks">
+                <h2>Выполненные задания</h2>
+                <p>В рамках курса JS/FE Pre-School 2022Q4 мною были выполнена задача по составлению CV. Доступно в открытом репозитории на <a href="https://github.com/AlastorMilton/rsschool-cv/tree/gh-pages">GitHub.</a></p>
+            </section>
+            <section id="english">
+                <h2>Уровень владения английским</h2>
+                <p>Владение английским примерно на уровне B1.</p>
+            </section>
+    </main>   
+    <footer>
+                <p>@2022</p> <a href="https://github.com/AlastorMilton">AlastorMilton</a>
+                <a href="https://rs.school/js/"><img src="image/rs_school_js.svg" alt="RSSchool" height="60"></a>
+    </footer> 
+    </body>
 </html>
